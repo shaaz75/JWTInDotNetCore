@@ -8,6 +8,12 @@ using System.Security.Claims;
 using System.Text;
 using System.IO;
 
+
+
+
+
+
+
 namespace JWT.Controllers
 {
     [Route("api/[controller]")]
