@@ -11,7 +11,7 @@ namespace JWT.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AuthController : ControllerBase
+    public class AuthController : ControllerBase    
     {
         [HttpPost("token")]
        public ActionResult GetToken()
